@@ -1,6 +1,5 @@
 --[[ 
-▀▄ ▄▀ @BRWUEN          
-▀▄ ▄▀ @vip_api                             
+تم التعديل بواسطة @Reda999                                       
 --]]
 
 local function pre_process(msg)
