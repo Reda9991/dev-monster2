@@ -1,20 +1,19 @@
 --[[
---@BRWUEN
---@vip_api
+--@Reda999
+--@city5_bot
 —]]
 do 
 local function run(msg, matches) 
 if ( msg.text ) then
   if ( msg.to.type == "user" ) then
-     return [[مہـ†ـًرـحّبـ℘ـِأ أنــہٰ⇣ـأ بـ℘ـِوُِِتً ألــحّمہـ†ـًأيّــﮩًٍ✺ٍَﮩـ✿ـٍٍّهہـء 
+     return [[ مٌرَحُبّا ْعزُيَزُيَ انَتْ الُانَ تْتْحُدِثُ مٌْع بّوَتْ حُمٌايَةِ كِرَوَبّاتْ 
      
      تواصل مع مطور سورس 
-    ⸽ @BRWUEN
-    ⸽ @BRWUEN_BOT
+    ⸽ @Reda999
+    ⸽ @city5_bot
     
-    تہٍـﮧ௸ِـِۣـّ̐ہٰأبہعً قنــہٰ⇣ـأِِتًنــہٰ⇣ـأ 💥۶ֆᵛ͢ᵎᵖ ⌯﴾❥
-
-┋༿ @vip_api ༾┋
+    
+      🌟🌟source dev monster🌟🌟
   ]]
     end 
   end 
