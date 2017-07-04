@@ -11,7 +11,7 @@ do
             return '♯ أهہـلـﮩﮨہٰٰہٰأ ❥⇠ '..msg.from.first_name..'\n\n' 
             ..'☫ مہـ†ـًعــ₰ــًًرفﮏ ✨ ⇠ @'..msg.from.username..'\n\n' 
         ..'☫ ألـﮩﮨہٰٰہٰمہجـﮩ๋͜ﮧـ͜ާْمہوُعًهہـ ⇠ '..msg.to.title..'\n\n' 
-            ..'☫ تہٍـﮧ௸ِـِۣـّ̐ہٰأبہعً قنــہٰ⇣ـأهہـ ﴾ @vip_api' 
+            
         end 
         
         if matches[1] == "chat_del_user" then 
