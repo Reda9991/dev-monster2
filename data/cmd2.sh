@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 
@@ -20,12 +19,18 @@ memUsed_m=$(($memTotal_m-$memFree_m-$memBuffer_m-$memCache_m))
 
 memUsedPrc=$((($memUsed_b*100)/$memTotal_b))
 
-echo "Memory: dev monster: $memTotal_m MB"
-echo "Memory Used: $memUsed_m MB - $memUsedPrc% used!"
-echo "Total : $memTotal_b"
-echo 'CPU Usage : '"$CPUPer"'%'
-echo 'Hdd : '"$hdd"'%'
-echo 'Processes : '"$ProcessCnt"
-echo 'Uptime : '"$uptime"
-echo "Bot - Net "
-echo "Code By Dev monster @riida"
+echo "1Memory: CRITICAL Total: $memTotal_m MB"
+echo "〰〰〰〰〰〰〰〰〰"
+echo "2Memory Used: $memUsed_m MB - $memUsedPrc% used!"
+echo "〰〰〰〰〰〰〰〰〰"
+echo "3Total : $memTotal_b"
+echo "〰〰〰〰〰〰〰〰〰"
+echo '4CPU Usage : '"$CPUPer"'%'
+echo "〰〰〰〰〰〰〰〰〰"
+echo '5Hdd : '"$hdd"'%'
+echo "〰〰〰〰〰〰〰〰〰"
+echo '6Processes : '"$ProcessCnt"
+echo "〰〰〰〰〰〰〰〰〰"
+echo '7Uptime : '"$uptime"
+echo "〰〰〰〰〰〰〰〰〰"
+echo "code by : @riida"
