@@ -8,35 +8,6 @@ update() {
   git submodule update --init --recursive
   install_rocks
 }
-
-install() {
-  git pull
-  git submodule update --init --recursive
-  patch -i "patches/disable-python-and-libjansson.patch" -p 0 --batch --forward
-  RET=$?;
-
-  cd tg
-  if [ $RET -ne 0 ]; 
-    autoconf -i
-}
-
-if [ "$1" = "install" ]; then
-  install
-elif [ "$1" = "update" ]; then
-  update
-else
-  if [ ! -f ./tg/telegram.h ]; then
-    echo "tg not found"
-    echo "Run $0 install"
-    exit 1
-  fi
-
-  if [ ! -f ./tg/bin/telegram-cli ]; then
-    echo "tg binary not found"
-    echo "Run $0 install"
-    exit 1
-  fi
-  
  ## chmod 777 config_fix.sh
   
   
