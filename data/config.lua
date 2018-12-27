@@ -4,7 +4,6 @@ do local _ = {
     "addsudo",
     "plugins",
     "redis",
-    "kickall",
     "im",
     "st",
     "speed",
